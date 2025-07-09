@@ -11,7 +11,7 @@ import pytest
 
 
 @pytest.fixture(scope="session")
-def cfg_test(db_setup) -> Iterator[dict]:
+def cfg_test() -> Iterator[dict]:
     home_dir = os.path.expanduser("~")
     cfg_test = {
         "home_dir": home_dir,
