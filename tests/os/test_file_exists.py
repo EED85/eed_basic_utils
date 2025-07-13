@@ -3,7 +3,7 @@ import tempfile
 
 import pytest
 
-from eed_basic_utils import file_exists
+from eed_basic_utils.os import file_exists
 
 
 @pytest.mark.parametrize(
