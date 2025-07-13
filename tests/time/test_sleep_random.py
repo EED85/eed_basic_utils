@@ -1,6 +1,6 @@
 import pytest
 
-from eed_basic_utils import sleep_random
+from eed_basic_utils.time import sleep_random
 
 
 @pytest.mark.parametrize(
