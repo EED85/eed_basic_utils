@@ -3,7 +3,10 @@ import time
 
 
 def sleep_random(
-    minimum_seconds: float = 0, maximum_seconds: float = 1, seed: int = None, ndigits: int = None
+    minimum_seconds: float = 0,
+    maximum_seconds: float = 1,
+    seed: int = None,
+    ndigits: int = None,
 ) -> float:
     """
     Pauses the program execution for a random duration between minimum_seconds and maximum_seconds.
