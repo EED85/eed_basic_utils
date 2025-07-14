@@ -15,7 +15,11 @@ from eed_basic_utils.time import sleep_random
     ],
 )
 def test_sleep(
-    minimum_seconds, maximum_seconds, seed, minimum_seconds_expected, maximum_seconds_expected
+    minimum_seconds,
+    maximum_seconds,
+    seed,
+    minimum_seconds_expected,
+    maximum_seconds_expected,
 ):
     result = sleep_random(minimum_seconds, maximum_seconds, seed)
     assert minimum_seconds_expected <= result <= maximum_seconds_expected

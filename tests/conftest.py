@@ -6,10 +6,6 @@ from pathlib import Path
 import pytest
 
 
-
-
-
-
 @pytest.fixture(scope="session")
 def cfg_test() -> Iterator[dict]:
     home_dir = os.path.expanduser("~")
